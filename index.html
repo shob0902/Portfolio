@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Shobhit Shourya</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item">
+                            <div class="theme-switch">
+                                <input type="checkbox" id="theme-toggle" class="theme-toggle">
+                                <label for="theme-toggle" class="toggle-label">
+                                    <i class='bx bxs-sun'></i>
+                                    <i class='bx bxs-moon'></i>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Shobhit</span><br> Software Developer</h1>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/shobhit-shourya-35b3a8248/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/shob0902" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="pw1.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <div align="center" style="margin-top: 20px;">
+   <div align="center" style="margin-top: 20px;">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeThmNGhtN3R1dTJmMWxxcmoyODR4ZnVrZjJjd2I2Mzg4M2p2MDBqcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f3iwJFOVOwuy7K6FFw/giphy.gif" 
+       alt="coding gif" 
+       class="about__gif">
+</div>
+
+</div>
+
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Shobhit</h2>
+                        <p class="about__text">Aspiring Software Developer skilled in Java, Python, and cloud-based development. Seeking to apply my academic knowledge and project experience to real-world engineering challenges in a growth-oriented tech environment.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+               <h4 align="center">👨‍💻 Programming Languages</h4>
+<div class="icon-row">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="50" height="50"/>
+</div>
+
+<h4 align="center">🌐 Web Technologies</h4>
+<div class="icon-row">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="50" height="50"/>
+  <img src="https://reactnative.dev/img/header_logo.svg" alt="React Native" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50" height="50"/>
+</div>
+
+<h4 align="center">📦 Libraries & Frameworks</h4>
+<div class="icon-row">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit Learn" width="40" height="40"/>
+  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas" width="40" height="40"/> 
+  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="40" height="40"/>
+  <img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_no_text.png" alt="OpenCV" width="40" height="40"/>
+</div>
+
+<h4 align="center">☁️ CI/CD, Cloud, & Databases</h4>
+<div class="icon-row">
+  <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="Azure" width="40" height="40"/> 
+  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="40" height="40"/> 
+  <img src="https://www.vectorlogo.zone/logos/redis/redis-icon.svg" alt="Redis" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="40" height="40"/>
+</div>
+
+<h4 align="center">🎨 Design & Other Tools</h4>
+<div class="icon-row">
+  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="40" height="40"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="Photoshop" width="40" height="40"/> 
+  <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="Illustrator" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40"/> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/> 
+</div>
+
+
+            </section>
+
+            <!--===== WORK =====-->
+           <section class="work section" id="work">
+   <h2 class="section-title">Projects</h2>
+  <div class="projects-container">
+    
+    <div class="project-card">
+      <h3>Brain Dump to Code</h3>
+      <p><b>Tech Stack:</b> TypeScript, VS Code API</p>
+      <p><b>Description:</b> A VS Code extension that converts natural language instructions into runnable code across multiple languages, streamlining development and boosting productivity.</p>
+    </div>
+
+   <div class="project-card">
+  <h3>AutismScope</h3>
+  <p><b>Tech Stack:</b> React, Flask, scikit-learn, Docker</p>
+  <p><b>Description:</b> Built a full-stack ML Autism Predictor (95% accuracy) with responsive glassmorphism UI/UX design. 
+     Deployed via Docker for scalable local/cloud use, achieving sub-second prediction latency and 40% improved engagement.</p>
+</div>
+
+<div class="project-card">
+  <h3>Stock Price Predictor with Real Market Data</h3>
+  <p><b>Tech Stack:</b> TensorFlow.js, Python, yfinance</p>
+  <p><b>Description:</b> Developed a web-based stock price predictor using LSTM with 85%+ accuracy on 3 years of Yahoo Finance data. 
+     Automated pipeline with 8,400+ data points for weekly retraining and real-time predictions in under 30 seconds.</p>
+</div>
+
+    <div class="project-card">
+      <h3>Scribl</h3>
+      <p><b>Tech Stack:</b> JavaScript</p>
+      <p><b>Description:</b> A simple yet elegant note-taking web app designed for ease of thought organization and management—helping users jot down, organize, and retrieve ideas effortlessly.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>CleanIT</h3>
+      <p><b>Tech Stack:</b> TypeScript</p>
+      <p><b>Description:</b> A smart and user-friendly scheduling application designed for hostel students. It allows users to conveniently book and manage room cleaning services around their schedules.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Password Generator</h3>
+      <p><b>Tech Stack:</b> Python (Tkinter GUI)</p>
+      <p><b>Description:</b> A GUI-based password generator that creates secure, customizable passwords by combining uppercase, lowercase letters, numbers, and symbols—prioritizing ease of use and security.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+            <p class="footer__title">Shobhit Shourya</p>
+            <div class="footer__social">
+                <a href="https://www.instagram.com/shobhit.shourya/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; All rigths reserved</p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+
+        <!--===== THEME SWITCH =====-->
+        <script>
+            const themeToggle = document.getElementById('theme-toggle');
+            const body = document.body;
+            
+            // Check for saved theme preference
+            const currentTheme = localStorage.getItem('theme');
+            if (currentTheme) {
+                body.classList.add(currentTheme);
+                if (currentTheme === 'dark-theme') {
+                    themeToggle.checked = true;
+                }
+            }
+
+            // Handle theme switch
+            themeToggle.addEventListener('change', function() {
+                if (this.checked) {
+                    body.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark-theme');
+                } else {
+                    body.classList.remove('dark-theme');
+                    localStorage.setItem('theme', 'light-theme');
+                }
+            });
+        </script>
+
+        <!--===== SCROLL TO TOP BUTTON =====-->
+        <div class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </div>
+
+        <!--===== SCROLL JS =====-->
+        <script>
+            // Show scroll top button when scrolling down
+            const scrollTop = document.getElementById('scroll-top');
+            window.addEventListener('scroll', function() {
+                if (this.scrollY >= 560) {
+                    scrollTop.classList.add('show-scroll');
+                } else {
+                    scrollTop.classList.remove('show-scroll');
+                }
+            });
+
+            // Smooth scroll to top when clicking the button
+            scrollTop.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+
+            // Smooth scroll for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
