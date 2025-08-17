@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-![Portfolio Preview](assets/img/preview.png)
+![Portfolio Preview](preview.png)
 
 A modern, responsive portfolio website showcasing my skills, projects, and professional experience. Built with HTML, CSS, and JavaScript, featuring both light and dark modes.
 
