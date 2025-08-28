@@ -334,24 +334,34 @@ img {
 
 
 /* ===== WORK =====*/
+.work.section {
+  padding: 4rem 1rem;
+}
+
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .project-card {
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(12px);
   border-radius: 1rem;
-  padding: 1.5rem;
+  padding: 2rem;
   box-shadow: 0 8px 24px rgba(31, 38, 135, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  height: 250px;         /* fixed equal height */
+  height: 280px;         /* slightly taller for better content fit */
   overflow-y: auto;      /* scroll when needed */
   scrollbar-width: none; /* hide scrollbar (Firefox) */
   -ms-overflow-style: none; /* hide scrollbar (IE/Edge) */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 /* Hide scrollbar for Chrome, Safari, Edge */
@@ -599,6 +609,9 @@ img {
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
+  }
+  .projects-container {
+    padding: 0 3rem;
   }
   .home__social {
     padding-top: 0;
