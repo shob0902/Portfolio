@@ -267,6 +267,20 @@
                     }
                 });
             });
+
+            // Mobile menu toggle
+  const navToggle = document.getElementById('nav-toggle');
+  const navMenu = document.getElementById('nav-menu');
+  navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+  });
+
+  // Close menu when a link is clicked (for better UX)
+  document.querySelectorAll('.nav__link').forEach(link => {
+    link.addEventListener('click', () => {
+      navMenu.classList.remove('show');
+    });
+  });
         </script>
     </body>
 </html>
